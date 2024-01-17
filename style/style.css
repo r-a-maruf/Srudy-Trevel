@@ -19,6 +19,9 @@ header{
 	justify-content: space-between;
 	align-items: center;
 }
+.navmenu > div{
+	flex: 1;
+}
 .navmenu .logo{
 	display: flex;
 	align-items: center;
@@ -56,7 +59,7 @@ header{
 }
 
 .navmenu .Mobilemenu{
-
+	display: none;
 }
 .navmenu .Mobilemenu .humbergur{
 	text-align: right;
