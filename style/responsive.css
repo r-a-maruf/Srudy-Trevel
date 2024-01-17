@@ -5,6 +5,9 @@
 	.row{
 		padding: 20px;
 	}
+header .container .row{
+	padding: 0px 20px;
+}
 	
 }
 @media screen and (max-width: 991px){
@@ -27,6 +30,9 @@
 	}
 	.navmenu .menu{
 		display: none;
+	}
+	.navmenu .logo img {
+    	max-width: 50%;
 	}
 	.navmenu .Mobilemenu .humbergur{
 		display: block;
