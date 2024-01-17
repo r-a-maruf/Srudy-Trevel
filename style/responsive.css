@@ -1,0 +1,101 @@
+@media screen and (min-width: 992px) {
+.container{
+		max-width: 100%;
+	}
+	.row{
+		padding: 20px;
+	}
+	
+}
+@media screen and (max-width: 991px){
+
+.container{
+		max-width: 100%;
+	}
+	.row{
+		padding: 20px;
+	}
+
+
+}
+@media screen and (max-width: 600px){
+	.container{
+		max-width: 600px;
+	}
+	.row{
+		padding: 20px;
+	}
+	.banner h2{
+		font-size: 38px;
+	}
+	.banner p {
+		margin: 0px 7%;
+	}
+	.banner form{
+		flex-direction: column;
+    	width: 80%;
+	}
+	form .form-select, form input {
+    	width: 85%;
+    	padding: 0px;
+    	margin: 0px auto;
+		margin-top: 25px; 
+	}
+	.banner .banner_content a {
+		width: 85%;
+    	margin: 0px auto;
+		margin-top: 25px;
+	}
+	.banner .banner_content a img {
+    	width: 10%;
+	}
+	.feature_row {
+		flex-direction: column;
+	}
+	.feature_content h2 {
+	    
+	    font-size: 38px;
+	    margin-bottom: 15px;
+	}
+	.destination {
+	    padding:0px;
+	}
+	.destination .row .one{
+		flex-direction: column;
+	}
+	.destination .row .two,.destination .row .three {
+    	flex-direction: column;
+    	gap: 20px;
+    }
+    .destination .row .two .inner img,.destination .row .three .inner img{
+    	width: 100%;
+    }
+
+
+	.destination .row p {
+		margin: 0px 7%;
+	}
+	.selection {
+    	padding: 0px 0px;
+	}
+	.selection .row {
+		flex-direction: column;
+	}
+	.selection .row .card {
+	    width: 80%;
+	    margin: 15px auto;
+	}
+	.newsletter_section .row {
+		flex-direction: column;
+	}
+	.newsletter_section {
+	    padding:0px;
+	}
+
+
+}
+
+@media screen and (max-width: 400px){
+
+
+}
